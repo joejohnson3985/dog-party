@@ -1,0 +1,284 @@
+/* Body */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff
+}
+
+p {
+  font-weight: 600;
+}
+/* Navigation */
+
+.navigation {
+  
+  background-color: #75e2e6;
+  top: 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1000;
+  white-space: nowrap;
+  height: auto;
+}
+
+.nav-logo {
+  width: 60px;
+  border: 0px solid red;
+  display: inline-block;
+  margin-left: 28px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.navigation li {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: black;
+  font-size: 22px;
+  font-weight: 800px;
+  width: auto;
+  border: 0px solid red;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-logo {
+    visibility: hidden;
+  } 
+}
+
+/* Header img*/
+
+.header-img {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  vertical-align: bottom;
+  background: url(images/park.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 4px solid #048eaa;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 0px solid red;
+  width: 700px;
+}
+
+.header-content img {
+  border-radius: 50%;
+  border: 4px solid #048eaa;
+  height: 200px;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+form {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  width: 400px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+
+.header-content input[type="text"]{
+  background: #ffffff;
+  border: .25px solid black;
+  border-radius: 2px;
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+}
+
+.header-content button{
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: #75e2e6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+}
+
+/* Main Content */
+
+main {
+  display: table;
+  width: 1080px;
+  margin:auto;
+}
+
+.row {
+  max-width: 100%;
+  margin: 250px;
+  display: table-row;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: inline;
+  display: table-cell;
+  min-height: 850px;
+  text-align: center;
+  position: relative;
+}
+
+.column img {
+  border-radius: 50%;
+  border: 4px solid #048eaa;
+  height: 200px;
+}
+
+.column h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dog-content {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 22px;
+}
+
+.button-row {
+  max-width: 100%;
+  margin: 250px;
+  display: table-row;
+}
+
+.button-column {
+  float: left;
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.button-row button {
+  width: 80%;
+  border-radius: 1px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #048eaa;
+  border-radius: 2px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.column button {
+  width: 80%;
+  border-radius: 1px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #048eaa;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+/*DESKTOP*/
+
+@media only screen and (min-width: 1080px){
+  .mobile {
+    display: none;
+  }
+}
+
+/*MOBILE*/
+
+ @media only screen and (max-width: 1080px) {
+  
+  main {
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+
+  .button-row {
+    display: none;
+  }
+
+  .dog-content {
+    text-align: center; 
+  }
+ }
+
+/* Footer */
+
+.footer {
+  background: #048eaa;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 100;
+  border: opx solid red;
+}
+
+.footer li {
+  display:inline-block;
+  padding: 10px;
+  border: 1px solid red;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.footer img {
+  height: 50px;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 0px solid red;
+}
+
+.footer-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 0px solid red;
+  width: 600px;
+}
