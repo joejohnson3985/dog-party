@@ -34,13 +34,13 @@ document.getElementById("change-me").addEventListener("click", function(e) {
 I created two row's and three columns. I gave the overall section a max width of 1080px to fit the dimensions of the comp.
 The first row contained the subheadings, images, and content, as well as buttons that ARE NOT displayed until the screen goes below 1080px. The columns also stack when the screen goes below 1080px. The second row contains the buttons that ARE displayed until the screen goes below 1080px.
 
-![Dog Party Main Content](https://github.com/joejohnson3985/dog-party/blob/master/main%20content.png "Dog Party Main Content")
+![Dog Party Main Content](https://github.com/joejohnson3985/dog-party/blob/master/Main%20Content.png "Dog Party Main Content")
 
 ##### Footer
 
 I created the footer similarly to how I created the header image, set the background's position to relative and the div containing the text and images to absolute. 
 
-![Dog Party Footer](https://github.com/joejohnson3985/dog-party/blob/master/footer.png "Dog Party Footer")
+![Dog Party Footer](https://github.com/joejohnson3985/dog-party/blob/master/Footer.png "Dog Party Footer")
 
 ### What I know I need to work on. 
 
