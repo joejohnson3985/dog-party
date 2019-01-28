@@ -21,12 +21,14 @@ I created an article and placed the headline in H1 tags but stopped the text aft
 
 I had JS fill in ending of the headline but doing a Query for `<strong>` and assigning a variable to it. I set the vaule of the variable to `Some Dogs` and then created a function to change the value based on the users input. I used `e.preventDefault();` to stop the page from refreshing.
 
-` var headline = document.querySelector('strong').innerText = 'Some Dogs';
+```
+var headline = document.querySelector('strong').innerText = 'Some Dogs';
 
 document.getElementById("change-me").addEventListener("click", function(e) {
   e.preventDefault();
   document.querySelector('strong').innerHTML = document.getElementById('dog-name').value;
-}); `
+});
+```
 
 ![Dog Party Header](https://github.com/joejohnson3985/dog-party/blob/master/Header.png "Dog Party Header")
 
