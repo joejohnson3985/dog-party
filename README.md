@@ -16,16 +16,17 @@ I created a section with and set the background image, and then placed a div on 
 
 ###### Header Content 
 I created an article and placed the headline in H1 tags but stopped the text after the word 'about'
+  
   `<h1 class="headline" id="headline">A Site About <strong></strong></h1>`
 
 I had JS fill in ending of the headline but doing a Query for `<strong>` and assigning a variable to it. I set the vaule of the variable to `Some Dogs` and then created a function to change the value based on the users input. I used `e.preventDefault();` to stop the page from refreshing.
 
-`var headline = document.querySelector('strong').innerText = 'Some Dogs';
+` var headline = document.querySelector('strong').innerText = 'Some Dogs';
 
 document.getElementById("change-me").addEventListener("click", function(e) {
   e.preventDefault();
   document.querySelector('strong').innerHTML = document.getElementById('dog-name').value;
-});`
+}); `
 
 ![Dog Party Header](https://github.com/joejohnson3985/dog-party/blob/master/Header.png "Dog Party Header")
 
@@ -45,3 +46,5 @@ I created the footer similarly to how I created the header image, set the backgr
 ### What I know I need to work on. 
 
 I have a lot of extra CSS. I really need to go through and clean it up. I think there is CSS in there that I had used before refactoring my HTML so it is jut doing nothing. Also I feel like I repeated my self a lot in my CSS by getting too specific with my CSS declarations. 
+
+I also need to work on using my semantic tags. I had a lot of divs.
